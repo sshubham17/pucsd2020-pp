@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+<h2>User_Record</h2>
+
+<table>
+    <th>id</th>
+   <th>first_name</th>
+   <th>last_name</th>
+   <th>email</th>
+   <th>password</th>
+   <th>contact_number</th>
+ <div *ngFor=" let users of users">
+  <tr>
+     <td>{{users.id}}</td>
+     <td>{{users.first_name}}</td>
+     <td>{{users.last_name}}</td>
+     <td>{{users.email}}</td>
+     <td>{{users.password}}</td>
+     <td>{{users.contact_number}}</td>
+     <!--<td (click)="deleteRecord(product.id)"><a>Delete</a></td>-->
+   </tr>
+ </div>
+</table>
+
+</body>
+</html>
