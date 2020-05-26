@@ -1,0 +1,99 @@
+<!-- <a routerLink="/PI" routerLinkActive="active">Personal Ofo</a> <br>
+<a routerLink="/Oj" routerLinkActive="active">Objective</a> -->
+
+<body>
+  <div class="container">
+    <header>
+      <div class="container">
+        <h3 align="center" id="name"> Shubham Ravindra Chincholkar</h3>
+      </div>
+      <div class="container">
+        <p align="center" id="addr">Sungaon Ves,Jalgaon jamod Buldhana Maharashtra 443402</p>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="d-flex align-items-center font-weight-500 Mobile">
+
+            <span class="mr-2">Mobile:[+919422749610</span>
+            <span>,+918329178225]</span>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="d-flex align-items-center font-weight-500 E-mail">
+
+            <span>E-mail:chincholkar1711@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <hr>
+
+
+
+    <!-- <div class="col-6">
+        <a routerLink="/PI" routerLinkActive="active"><button mdbBtn type="button" color="success" mdbWavesEffect
+            id="p_info">Personal Information</button></a>
+        <br>
+        <a routerLink="/Oj"><button mdbBtn type="button" color="default" mdbWavesEffect
+            id="Obj">Objectives</button></a>
+        <br>
+        <a routerLink="/edu"><button mdbBtn type="button" color="default" mdbWavesEffect
+            id="edu_details">Education Details</button></a>
+        <br>
+        <a routerLink="/edu"><button mdbBtn type="button" color="default" mdbWavesEffect
+            id="Intern">Internship</button></a>
+        <br>
+        <a routerLink="/edu"><button mdbBtn type="button" color="default" mdbWavesEffect
+            id="Activities">Co-curricular Activities/Skills</button></a>
+        <br>
+      </div> -->
+    <div class="row m-0">
+      <div class="col-12 col-lg-3  p-0 border border-bottom-1">
+
+
+        <nav class="navbar  ">
+          <a routerLink="/Oj">Objectives</a>
+        </nav>
+        <nav class="navbar ">
+          <a routerLink="/edu">Education Details</a>
+        </nav>
+        <nav class="navbar">
+          <a routerLink="/skill">Co-curricular Activities/Skills</a>
+        </nav>
+        <nav class="navbar ">
+          <a routerLink="/PI">Personal Information</a>
+        </nav>
+
+      </div>
+      <!-- <div class="col-9"> -->
+      <div class="col-12 col-sm-12 col-md-9 col-lg-9 p-0 border border-bottom-1 info_body">
+        <div class="p-2">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="m-1 ">
+        Declaration:<br>
+
+
+      </div>
+     <p id="declare_text"> I hereby declare that the above information is true to the best of my knowledge.</p>
+      <div class="row m-0 ">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0">
+          <div class="d-flex align-items-center font-weight-500  text-capitalize margin-left-20px">
+            <span ><b>pune, maharastra</b></span>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0">
+          <div class="d-flex align-items-center font-weight-500 justify-content-end  text-capitalize">
+            <span ><b>SHUBHAM RAVINDRA CHINCHOLKAR</b></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>

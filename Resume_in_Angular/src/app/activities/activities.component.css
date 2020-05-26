@@ -1,0 +1,35 @@
+.row{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: -8px;
+}
+.Skill{
+
+    text-align: left;
+    margin-left: 20px;
+}
+
+li{
+
+     /* margin-left: 50px;
+    margin-top: -31px;
+    margin-bottom: -13px; 
+    margin-left: 74px;
+    margin-top: 0px;
+    margin-bottom: -51px;
+    padding-top: 16px;
+    line-height: normal; */
+    margin-left: 97px;
+    margin-top: 0px;
+    margin-bottom: -51px;
+    padding-top: 15px;
+    line-height: normal;
+    padding-bottom: -6px;
+    inline-size: max-content;
+
+}
+span{
+
+    margin-left: 22px;
+}

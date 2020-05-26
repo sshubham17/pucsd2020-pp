@@ -1,0 +1,15 @@
+p{
+    font-size: larger;
+font-size-adjust: initial;
+font-style: inherit;
+font-variant-position: unset;
+font-weight: lighter;
+margin-left: 14px;
+
+}
+span{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 14px;
+    margin-top: -8px;
+}
